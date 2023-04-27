@@ -1,7 +1,7 @@
 function submitForm() {
 
   let errorMessage = document.getElementById("errorMessage");   
-  
+   
   let elements = document.querySelectorAll("input");
 
   //Check whether any fields are empty and draws red frame around them. Also shows a message to the user. 
