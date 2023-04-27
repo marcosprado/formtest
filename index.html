@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill test for Convolo.ai by Marcos Prado</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+ 
+
+    <div class="wrapper">
+      <div class="form-div">
+        <div class="img-div">
+            <div class="left-text">
+              <p>This is a test for a Convolo.ai hiring process. 
+                Developed by Marcos Prado. 
+                </p>
+            </div>
+        </div>
+        <div class="right-text" id="inputs">
+          <h6>Please, fill in the required information</h6>
+          <!-- The onChange method is for resetting input fields' border color when it's changed -->
+          <input type="text" name="name" id="name" placeholder="Enter your name" onchange="this.style.borderColor='black'"> 
+          <input type="email" name="email" id="email" placeholder="Enter your email" onchange="this.style.borderColor='black'">
+          <input type="text" name="number" id="number" placeholder="Enter your phone number" onchange="this.style.borderColor='black'">
+          <input type="text" name="message" id="message" placeholder="Enter a message" onchange="this.style.borderColor='black'"></input>
+
+          <button id="send_btn" onclick="submitForm()">Submit</button>
+          <p id="errorMessage"></p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
