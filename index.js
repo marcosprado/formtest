@@ -29,7 +29,7 @@ function submitForm() {
 
   let falseNumber = document.getElementById("number").value;
   let regexValidNumber = /^[0-9+ -]+$/;
-
+ 
   let falseEmail = document.getElementById("email").value;
   let regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
